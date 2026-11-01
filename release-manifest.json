@@ -1,0 +1,113 @@
+{
+  "schema_version": 1,
+  "profile": "standalone-interview-design",
+  "display_name": "盒盒访谈设计 Skill",
+  "repository_slug": "hehe-expert-interview",
+  "version": "2026.11.01",
+  "namespace": "hehe-",
+  "entry_skill": "hehe-expert-interview",
+  "install_policy": "standalone",
+  "license": "MIT",
+  "required_skills": [],
+  "optional_external_skills": {
+    "tanzi": "已安装时可辅助公开背景获取，未安装时使用当前可用能力。",
+    "baojie": "已安装时可辅助资料核对，未安装时自行完成必要检查。"
+  },
+  "skills": [
+    {
+      "name": "hehe-expert-interview",
+      "role": "interview-design",
+      "required_files": [
+        "agents/openai.yaml",
+        "examples/企业软件采购与使用.md",
+        "examples/家庭产品用户分流与体验.md",
+        "examples/工业硬件商业尽调.md",
+        "references/交付模板与检查.md",
+        "references/提纲编排与主持.md",
+        "references/提问与追问方法.md",
+        "references/用户访谈与产品体验.md",
+        "references/研究任务与受访角色.md",
+        "SKILL.md"
+      ]
+    }
+  ],
+  "source_sha256": {
+    "agents/openai.yaml": "3f4abb9233cce008c243304fa6087e1bb75bef21aff8abeac9cda0cfa8c7f395",
+    "examples/企业软件采购与使用.md": "cb3ad8ba03eaa6f0a466a66681eeddfa68378e323d561915ff583d61479c6d51",
+    "examples/家庭产品用户分流与体验.md": "d1dda385dc22e87bccb164486a2d17ab8ae49d5fd9917a8cb5863bc56accdc32",
+    "examples/工业硬件商业尽调.md": "a66c95779d2d401430826933b417dec97c48ef885208cd5e33fe0618c8ba73eb",
+    "references/交付模板与检查.md": "7956ca934e02c394b5e36e2b4d9a23475ecb303f2fc1c6a8f26e75715bc92174",
+    "references/提纲编排与主持.md": "a5c4594ca98e725470427ad9ddaf558c5a64f7c445e29602eab51eed7a684426",
+    "references/提问与追问方法.md": "8d3bb306f6d2aa7b68809ad87fa9cbb32bfaba917de29d0f834e106eea9e2fe9",
+    "references/用户访谈与产品体验.md": "7c4ce36cfaa372e8fc50469d69089acf71deb2791dbc590194fd2bec7b4ba578",
+    "references/研究任务与受访角色.md": "d103cef7149f93399558dd97bd892381b55a23e53927c5cce7a1e823de3f0f26",
+    "SKILL.md": "8ef783a10f354b9830b99c2441ab06045abcb145e7f321058e0c8b3da2816b35"
+  },
+  "public_sha256": {
+    "agents/openai.yaml": "ee1fdf34e02dc31330bbf908852b755060b8a4c677290622d40221fc2d38b40d",
+    "examples/企业软件采购与使用.md": "cb3ad8ba03eaa6f0a466a66681eeddfa68378e323d561915ff583d61479c6d51",
+    "examples/家庭产品用户分流与体验.md": "d1dda385dc22e87bccb164486a2d17ab8ae49d5fd9917a8cb5863bc56accdc32",
+    "examples/工业硬件商业尽调.md": "a66c95779d2d401430826933b417dec97c48ef885208cd5e33fe0618c8ba73eb",
+    "references/交付模板与检查.md": "7956ca934e02c394b5e36e2b4d9a23475ecb303f2fc1c6a8f26e75715bc92174",
+    "references/提纲编排与主持.md": "a5c4594ca98e725470427ad9ddaf558c5a64f7c445e29602eab51eed7a684426",
+    "references/提问与追问方法.md": "8d3bb306f6d2aa7b68809ad87fa9cbb32bfaba917de29d0f834e106eea9e2fe9",
+    "references/用户访谈与产品体验.md": "7c4ce36cfaa372e8fc50469d69089acf71deb2791dbc590194fd2bec7b4ba578",
+    "references/研究任务与受访角色.md": "d103cef7149f93399558dd97bd892381b55a23e53927c5cce7a1e823de3f0f26",
+    "SKILL.md": "5b79710e1d8c90646f57ccd9005f19b36bbe7ee8adb216eb386c18ef01137825"
+  },
+  "runtime": {
+    "instructions": "Markdown and YAML; no executable runtime bundled",
+    "word": "Available document-generation tools in the execution environment; no mandatory document Skill"
+  },
+  "examples": {
+    "type": "simulated interview designs; no real respondents or findings",
+    "files": [
+      "examples/home-coffee/20261031_家用全自动咖啡机_模拟用户研究需求_CO.md",
+      "examples/home-coffee/20261031_家用全自动咖啡机_访前背景与来源_CO.md",
+      "examples/home-coffee/20261031_家用咖啡机_用户提纲_主持执行版_CO.docx",
+      "examples/home-coffee/20261031_家用咖啡机_用户提纲_主持执行版_CO.md",
+      "examples/home-coffee/20261031_家用咖啡机_用户提纲_正在使用_受访者版_CO.docx",
+      "examples/home-coffee/20261031_家用咖啡机_用户提纲_正在使用_受访者版_CO.md",
+      "examples/home-coffee/20261031_家用咖啡机_用户提纲_考虑未买_受访者版_CO.docx",
+      "examples/home-coffee/20261031_家用咖啡机_用户提纲_考虑未买_受访者版_CO.md",
+      "examples/home-coffee/20261031_家用咖啡机_用户提纲_闲置退货_受访者版_CO.docx",
+      "examples/home-coffee/20261031_家用咖啡机_用户提纲_闲置退货_受访者版_CO.md",
+      "examples/industrial-cleaning/20261031_工业干冰清洗_模拟访谈需求_CO.md",
+      "examples/industrial-cleaning/20261031_工业干冰清洗_行业专家提纲_主持执行版_CO.docx",
+      "examples/industrial-cleaning/20261031_工业干冰清洗_行业专家提纲_主持执行版_CO.md",
+      "examples/industrial-cleaning/20261031_工业干冰清洗_行业专家提纲_受访者阅读版_CO.docx",
+      "examples/industrial-cleaning/20261031_工业干冰清洗_行业专家提纲_受访者阅读版_CO.md",
+      "examples/industrial-cleaning/20261031_工业干冰清洗_访前背景与来源_CO.md",
+      "examples/industrial-maintenance/20261031_空压机维护_受访者版_操作使用人员_CO.docx",
+      "examples/industrial-maintenance/20261031_空压机维护_受访者版_操作使用人员_CO.md",
+      "examples/industrial-maintenance/20261031_空压机维护_受访者版_维修负责人_CO.docx",
+      "examples/industrial-maintenance/20261031_空压机维护_受访者版_维修负责人_CO.md",
+      "examples/industrial-maintenance/20261031_空压机维护_受访者版_采购参与者_CO.docx",
+      "examples/industrial-maintenance/20261031_空压机维护_受访者版_采购参与者_CO.md",
+      "examples/industrial-maintenance/20261031_空压机预测维护_访谈提纲_CO.docx",
+      "examples/industrial-maintenance/20261031_空压机预测维护_访谈提纲_CO.md"
+    ],
+    "unchanged_outline_sha256": {
+      "examples/industrial-maintenance/20261031_空压机维护_受访者版_操作使用人员_CO.docx": "f095c042e8cd1d2d77761f4136c64451ba332bbc2100f2ceff4c00a2449b8ce6",
+      "examples/industrial-maintenance/20261031_空压机维护_受访者版_操作使用人员_CO.md": "1ae54727872ddb536b0d36e4b181058043a9a6aa77ec66d719f24e5a62df768a",
+      "examples/industrial-maintenance/20261031_空压机维护_受访者版_维修负责人_CO.docx": "448bf2e00d46b897d4b0257508596eb073ee6d430785ca2f05397035c1946dc2",
+      "examples/industrial-maintenance/20261031_空压机维护_受访者版_维修负责人_CO.md": "63688082ceebf2d58791fc26cc51f1f675212d2ffe73b2a9a405854c3cab67d5",
+      "examples/industrial-maintenance/20261031_空压机维护_受访者版_采购参与者_CO.docx": "b4cc9feacf468f9a80dd37a7acce9a29c8745154e64f6761fe108a36a25bd4b3",
+      "examples/industrial-maintenance/20261031_空压机维护_受访者版_采购参与者_CO.md": "cf12206a0c2bfee20486af7eec9a77aa848059803466ef5e73fb20795d6c61ba",
+      "examples/industrial-maintenance/20261031_空压机预测维护_访谈提纲_CO.docx": "415aa76d440083fb358ba3d44e59dee604738906e1c594a1598ee046e8f231ac",
+      "examples/industrial-maintenance/20261031_空压机预测维护_访谈提纲_CO.md": "9236decce1324b65f21d3cc368509262ff213d36d3a260797b6a7b8a4ebe7d92",
+      "examples/industrial-cleaning/20261031_工业干冰清洗_行业专家提纲_主持执行版_CO.docx": "d5808cf5bb9a26c899cbc34750c5ce813ce00957779170539762461f576dc4f1",
+      "examples/industrial-cleaning/20261031_工业干冰清洗_行业专家提纲_主持执行版_CO.md": "957451a8e1a9eb74c9eef2db668cb25e7d1b34f398d31ce3cf292ba7bb416ace",
+      "examples/industrial-cleaning/20261031_工业干冰清洗_行业专家提纲_受访者阅读版_CO.docx": "dbd55efa0249cdc2ebaec8210e3fad77ff24b41b08c22d99b5ba97138a92d81f",
+      "examples/industrial-cleaning/20261031_工业干冰清洗_行业专家提纲_受访者阅读版_CO.md": "32dfa4fc289f93479e13876b40ed2008951a070a1402db56fba703873c3d10bf",
+      "examples/home-coffee/20261031_家用咖啡机_用户提纲_主持执行版_CO.docx": "165cac326bbbd92a30f017d5c3928ad4032b095da4755c38c8b6b0f2431f8e83",
+      "examples/home-coffee/20261031_家用咖啡机_用户提纲_主持执行版_CO.md": "e607c5cfff474b08f9a1f7fe665ccc11f66018e7477c1870663bb69e27ba258a",
+      "examples/home-coffee/20261031_家用咖啡机_用户提纲_正在使用_受访者版_CO.docx": "12a775483d34781ee473ea6eb969d7e5e253a3df40b2bb425bdc4f64812bb674",
+      "examples/home-coffee/20261031_家用咖啡机_用户提纲_正在使用_受访者版_CO.md": "5a5c4c0a3e58945c676f8bb97948e1adccf4ec30b452476cd7ba8c2034d65cb5",
+      "examples/home-coffee/20261031_家用咖啡机_用户提纲_考虑未买_受访者版_CO.docx": "53bb9d4c1d12e9c2dc2746633c4a8e7d30017e2319ceb22a48635b1ae28701d5",
+      "examples/home-coffee/20261031_家用咖啡机_用户提纲_考虑未买_受访者版_CO.md": "dd81a9bc8a7f18ef06378f4e3b4273132c3816ad90f502d262406bf846d2c7a7",
+      "examples/home-coffee/20261031_家用咖啡机_用户提纲_闲置退货_受访者版_CO.docx": "80c375fde5cac3f88f24a924e98568a5cb1ebcef504dced361cbe144fce22e97",
+      "examples/home-coffee/20261031_家用咖啡机_用户提纲_闲置退货_受访者版_CO.md": "6db85d2de2903cfcf37c2a80231d6f7e8f242e6113a2efe4fe88ee430fb2189a"
+    }
+  }
+}

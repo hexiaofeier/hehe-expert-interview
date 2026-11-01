@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="750" viewBox="0 0 1440 750" role="img" aria-labelledby="title desc">
+<title id="title">盒盒访谈设计：同一研究，形成两版可用提纲</title>
+<desc id="desc">明确研究要支持的判断，查阅材料并安排知情角色，写主问题和条件追问，编排时间与活动。随后分别形成主持执行版和受访者阅读版，各含Markdown和同内容Word。</desc>
+<defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto"><path d="M0 0L8 4L0 8" fill="none" stroke="#12898d" stroke-width="1.4"/></marker></defs>
+<rect width="1440" height="750" rx="24" fill="#f2f7f9"/>
+<g font-family="Microsoft YaHei, PingFang SC, Noto Sans CJK SC, sans-serif">
+<text x="64" y="66" font-size="20" fill="#12898d" font-weight="700">盒盒访谈设计 Skill · hehe-expert-interview</text>
+<text x="64" y="126" font-size="38" fill="#183f54" font-weight="700">同一研究，形成两版可用的访谈提纲</text>
+<text x="64" y="168" font-size="22" fill="#566c79">主持人深入追问，受访者提前理解问题并准备。</text>
+<g fill="#fff" stroke="#d7e5eb" stroke-width="1.5">
+<rect x="64" y="211" width="296" height="194" rx="12"/><rect x="404" y="211" width="296" height="194" rx="12"/>
+<rect x="744" y="211" width="296" height="194" rx="12"/><rect x="1084" y="211" width="292" height="194" rx="12"/>
+</g>
+<g fill="#12898d" font-size="23" font-weight="700"><text x="86" y="248">01</text><text x="426" y="248">02</text><text x="766" y="248">03</text><text x="1106" y="248">04</text></g>
+<g fill="#183f54" font-size="25" font-weight="700"><text x="86" y="292">明确本轮研究任务</text><text x="426" y="292">查阅材料，选择角色</text><text x="766" y="292">写出主问与条件追问</text><text x="1106" y="292">编排时间与现场活动</text></g>
+<g fill="#526976" font-size="21"><text x="86" y="337">谁需要作什么判断，</text><text x="86" y="369">哪些信息尚未取得。</text><text x="426" y="337">哪些事实已经清楚，</text><text x="426" y="369">哪些人有直接经历。</text><text x="766" y="337">围绕事件、过程与结果，</text><text x="766" y="369">依据实际回答继续追问。</text><text x="1106" y="337">保留重点、明确分支，</text><text x="1106" y="369">计入操作与收尾时间。</text></g>
+<g stroke="#12898d" stroke-width="2" fill="none" marker-end="url(#arrow)"><path d="M368 308H392"/><path d="M708 308H732"/><path d="M1048 308H1072"/><path d="M720 419V448H388V477"/><path d="M720 448H1052V477"/></g>
+<rect x="64" y="492" width="636" height="173" rx="14" fill="#183f54"/>
+<rect x="744" y="492" width="632" height="173" rx="14" fill="#fff" stroke="#a7cdd2" stroke-width="2"/>
+<text x="92" y="537" fill="#fff" font-size="29" font-weight="700">主持执行版</text><text x="92" y="582" fill="#e8f3f7" font-size="22">研究重点 · 主问题 · 条件追问 · 时间与记录</text><text x="92" y="625" fill="#9bdbde" font-size="22">Markdown ＋ 同内容 Word</text>
+<text x="772" y="537" fill="#183f54" font-size="29" font-weight="700">受访者阅读版</text><text x="772" y="582" fill="#526976" font-size="22">交流目的 · 完整主要问题 · 时长与准备事项</text><text x="772" y="625" fill="#12898d" font-size="22">Markdown ＋ 同内容 Word，多角色分别成稿</text>
+<text x="64" y="714" font-size="20" fill="#6b7e89">行业专家 / 企业内部 / 用户　｜　支持初访、预访修订、定向补访与追踪访谈</text>
+</g></svg>

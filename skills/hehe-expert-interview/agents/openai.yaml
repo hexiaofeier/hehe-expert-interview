@@ -1,0 +1,5 @@
+interface:
+  display_name: "访谈设计"
+  short_description: "为行业、企业和用户研究设计分角色提纲，提供主持执行与受访者阅读两版"
+  default_prompt: "使用 $hehe-expert-interview，结合研究目标和已有材料设计分角色访谈提纲，明确主题、主要问题、追问与时间，交付主持执行版和受访者阅读版，各含Markdown与同内容Word。"
+
